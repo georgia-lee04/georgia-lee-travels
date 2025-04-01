@@ -103,7 +103,7 @@ p {
   line-height: 1.5;
 }
 
-img {
+.index-img {
   border-radius: 8px;
   box-shadow: 0 5px 10px rgba(142, 187, 192, 0.4);
 }
@@ -170,6 +170,25 @@ img {
   background: #d5eaed;
   padding: 30px 120px;
   border-radius: 10px;
+}
+
+.card .card-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.wrapper .card {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px rgba(142, 187, 192, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.wrapper .card:hover {
+  transform: translateY(-10px);
 }
 
 footer small {
