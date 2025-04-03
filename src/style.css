@@ -63,7 +63,6 @@ nav .logo:hover {
 
 .video-container {
   position: relative;
-
   overflow: hidden;
 }
 video {
@@ -109,6 +108,8 @@ h2 {
 
 h3 {
   font-size: 25px;
+  font-weight: 800;
+  color: #102224;
 }
 
 h4 {
