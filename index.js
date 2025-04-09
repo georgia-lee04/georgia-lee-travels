@@ -14,7 +14,7 @@ function generateTripIdeas(event) {
   let apiKey = "4f9f36e261a3705eo07b4a98ct5b3f15";
   let prompt = `Generate 5 trip ideas based on ${instructionsInput.value}`;
   let context =
-    "You are a world traveller and have a huge amount of knowledge of travel and the best destinations to visit. Your mission is the provide the best recommendations based on what the client is looking for. Only give 5 recommendations maximum.";
+    "You are a world traveller and have a huge amount of knowledge of travel and the best destinations to visit. Your mission is the provide the best recommendations based on what the client is looking for. Only give 5 recommendations maximum. Use emojis in the answer to make it more visual and space out the answer clearly in a list format please. Don't say Sure! at the start";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   let tripIdeasElement = document.querySelector("#generator-output");
