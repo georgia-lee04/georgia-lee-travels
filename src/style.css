@@ -94,6 +94,17 @@ video {
   padding: 10px;
   line-height: 1;
 }
+.ai-text-overlay {
+  position: absolute;
+  bottom: -30px;
+  right: 30px;
+  color: white;
+  opacity: 0.8;
+  font-size: 15px;
+  font-weight: 300;
+
+  line-height: 1;
+}
 
 .h1-thin {
   font-weight: 200;
@@ -309,6 +320,49 @@ hr {
   border-radius: 10px;
 }
 
+.ai-travel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("/images/wadi-rum-landscape-morning.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 200px;
+}
+
+.ai-travel h1 {
+  font-size: 65px;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  padding: 20px;
+}
+
+.search-input {
+  padding: 14px;
+  width: 80%;
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+}
+
+.ai-travel-container {
+  background: var(--secondary-color);
+  width: 900px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.submit-button {
+  border: none;
+  border-radius: 10px;
+}
 footer small {
   opacity: 0.6;
 }
