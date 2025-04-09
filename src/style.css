@@ -363,6 +363,45 @@ form {
   border: none;
   border-radius: 10px;
 }
+
+.generator-output {
+  border-left: 3px solid #bbe4e9;
+  padding: 10px;
+  line-height: 24px;
+  font-size: 14px;
+  background: white;
+  max-width: 600px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 15px 15px;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.03);
+}
+
+.loader-text {
+  font-size: 15px;
+  position: relative;
+  left: 30px;
+  bottom: 17px;
+}
+
+.hidden {
+  display: none;
+}
+
+.loader {
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  border: 8px solid;
+  border-color: #000 #0000;
+  animation: l1 1s infinite;
+  display: inline-block;
+  margin-right: 10px;
+}
+
 footer small {
   opacity: 0.6;
 }
@@ -392,6 +431,12 @@ footer small a:hover {
   text-decoration: none;
   color: var(--primary-color);
   font-weight: 700;
+}
+
+@keyframes l1 {
+  to {
+    transform: rotate(0.5turn);
+  }
 }
 
 @media (max-width: 700px) {
