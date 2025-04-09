@@ -18,6 +18,14 @@ section.secondary {
   padding: 40px;
 }
 
+.reduced-padding-bottom {
+  padding-bottom: 0;
+}
+
+.reduced-padding-top {
+  padding-top: 10px;
+}
+
 .btn-container {
   max-width: 100%;
   margin: 0 auto;
