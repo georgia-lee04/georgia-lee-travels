@@ -18,6 +18,19 @@ section.secondary {
   padding: 40px;
 }
 
+.about-info-container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: var(--secondary-color);
+  transition: all 0.3s ease;
+}
+
+.about-info-container:hover {
+  transform: translate(-10px);
+}
+
 .reduced-padding-bottom {
   padding-bottom: 0;
 }
@@ -328,6 +341,23 @@ hr {
   border-radius: 10px;
 }
 
+.about-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("/images/wadi-rum-desert-walk.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 300px 200px;
+}
+
+.georgia-in-desert-video {
+  height: 550px;
+  display: block;
+  margin: 70px auto;
+  border-radius: 10px;
+}
+
 .ai-travel {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url("/images/wadi-rum-landscape-morning.jpeg");
@@ -338,7 +368,7 @@ hr {
   padding: 200px 200px;
 }
 
-.ai-travel h1 {
+.hero-heading {
   font-size: 65px;
   font-weight: 500;
 }
