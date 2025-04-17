@@ -264,7 +264,7 @@ hr {
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(142, 187, 192, 0.4);
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .card-list .card-item .card-image:hover {
@@ -356,6 +356,15 @@ hr {
   display: block;
   margin: 70px auto;
   border-radius: 10px;
+}
+
+.travel-ideas-video {
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.travel-ideas-video:hover {
+  transform: translateY(-10px);
 }
 
 .ai-travel {
